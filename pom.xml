@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>tn.esprit</groupId>
-    <artifactId>AutoLoc</artifactId>
+    <artifactId>AutoLock</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>AutoLoc</name>
-    <description>AutoLoc</description>
+    <name>AutoLock</name>
+    <description>AutoLock</description>
     <url/>
     <licenses>
         <license/>
@@ -42,11 +42,6 @@
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
         <dependency>
